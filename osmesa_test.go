@@ -38,7 +38,7 @@ func TestOSMesa(t *testing.T) {
 		t.FailNow()
 	}
 
-	if GetIntegerv(WIDTH) != 640 {
+	if GetIntegerv(HEIGHT) != 480 {
 		t.Fatal("invalid height")
 		t.FailNow()
 	}
